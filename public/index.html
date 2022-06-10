@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+ <html>
+     <title> Welcome Visitor! </title>
+     <head>
+        <link rel="stylesheet" type="text/css" href="css1.css"/>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+   <body>
+       <section id="header">
+           <div class="container">
+               <h1 class="logo"> KYLE AGULLO </h1>
+               <div class="header-text"> <h2> "Be yourself.<br> Everyone else is already taken." </h2>
+                 <span class="square"></span>
+                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                     content here', making it look like readable English. Many desktop publishing packages
+                     and web page editors now use Lorem Ipsum as their default model text, and a search for
+                      'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                       accident, sometimes on purpose (injected humour and the like).</p><br> </div>
+                     <button class="common-btn"><a href="readmore.html"> Read more </a></button><br><br>
+                     <div class="line">
+                         <span class="line-1"></span><br>
+                         <span class="line-2"></span><br>
+                         <span class="line-3"></span><br>
+                     </div>
+           </div>
+       </section>
+       <nav id="sidenav">
+           <ul>
+               <li><a href="#"> HOME </a></li>
+               <li><a href="#"> ABOUT ME</a></li>
+               <li><a href="#"> FEATURES </a></li>
+               <li><a href="#"> COURSES </a></li>
+               <li><a href="#"> OFFERS </a></li>
+               <li><a href="#"> CONTACT </a></li>
+           </ul>
+       </nav>
+       <img src="menu1.png" id="menubtn">
+       <section id="about">
+           <div class="about-left-col">
+               <img src="addimg1.jpg">
+           </div>
+           <div class="about-right-col">
+               <div class="about-text">
+                   <h1> About Us</h1>
+                   <span class="square"></span>
+                   <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC,
+                         making it over 2000 years old. Richard McClintock, a Latin professor
+                          at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                           Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                            the cites of the word in classical literature, discovered the undoubtable
+                             source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibu
+                             s Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written 
+                             in 45 BC. This book is a treatise on the theory of ethics, very popular
+                              during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor
+                               sit amet.."</p><br><br>
+                               <div class="line">
+                                <span class="line-1"></span><br>
+                                <span class="line-2"></span><br>
+                                <span class="line-3"></span><br><br>
+                            </div>
+                               <h2>“Everything you need is already inside you. Get started.”</h2>
+                               <h3>---Jkyle Agullo---</h3> 
+
+               </div>
+           </div>
+
+       </section>
+       <!---features-->
+       <section id="features">
+           <div class="feature-row">
+               <div class="feature-col">
+                   <img src="addimg2.jpg">
+                   <h4> Learn anywhere </h4>
+                   <p> You can use your PC, android, and iOS devices.</p>
+               </div>
+               <div class="feature-col">
+                <img src="addimg3.jpg">
+                <h4> More convenient </h4>
+                <p> All in one website tutorials.</p>
+               </div>
+               <div class="feature-col">
+                <img src="addimg4.jpg">
+                <h4> Hassle free </h4>
+                <p> Learn with the comfort of your home.</p>
+               </div>
+           </div><br><br>
+           <div class="feature-btn">
+            <button class="common-btn"> free trial </button>
+           </div>
+       </section>
+
+
+
+
+
+
+       <script>
+           var menubtn = document.getElementById("menubtn")
+           var sidenav = document.getElementById("sidenav")
+           sidenav.style.right = "-250px";
+           menubtn.onclick = function(){
+               if(sidenav.style.right == "-250px"){
+                   sidenav.style.right = "0";
+               }
+               else{
+                   sidenav.style.right = "-250px";
+               }
+           }
+
+       </script>
+
+
+   </body>
+   </html>
